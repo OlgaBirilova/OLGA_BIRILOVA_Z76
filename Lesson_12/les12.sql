@@ -33,7 +33,7 @@ VALUES("Honor", 3000, 64, 800, "no", 250);
 
 SELECT * FROM pc WHERE price < 400;
 
-SELECT code, speed, hd FROM pc WHERE ram >= 8 AND ram <= 32;
+SELECT code, speed, hd FROM pc WHERE ram BETWEEN 8 AND 32;
 
 SELECT price FROM pc WHERE hd < 1000;
 
